@@ -1,0 +1,6 @@
+{
+  "name": "Ludo Classic",
+  "description": "Classic responsive multiplayer Ludo board game with AI opponents, animations, and sound effects",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

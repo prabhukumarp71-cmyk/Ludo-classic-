@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Base Board Frame (Rounded Square in 66dp safe zone: 21 to 87) -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M27,21 H81 A6,6 0 0 1 87,27 V81 A6,6 0 0 1 81,87 H27 A6,6 0 0 1 21,81 V27 A6,6 0 0 1 27,21 Z" />
+    
+    <!-- Green Quadrant (Top Left: 24,24 to 48,48) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M27,24 H47 A2,2 0 0 1 49,26 V48 H25 V26 A2,2 0 0 1 27,24 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,36 A5,5 0 1 0 37,36.1 Z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M37,36 A3,3 0 1 0 37,36.1 Z" />
+
+    <!-- Yellow Quadrant (Top Right: 60,24 to 84,48) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M61,24 H81 A2,2 0 0 1 83,26 V48 H59 V26 A2,2 0 0 1 61,24 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M71,36 A5,5 0 1 0 71,36.1 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M71,36 A3,3 0 1 0 71,36.1 Z" />
+
+    <!-- Red Quadrant (Bottom Left: 24,60 to 48,84) -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M25,60 H49 V82 A2,2 0 0 1 47,84 H27 A2,2 0 0 1 25,82 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,72 A5,5 0 1 0 37,72.1 Z" />
+    <path
+        android:fillColor="#B91C1C"
+        android:pathData="M37,72 A3,3 0 1 0 37,72.1 Z" />
+
+    <!-- Blue Quadrant (Bottom Right: 60,60 to 84,84) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M59,60 H83 V82 A2,2 0 0 1 81,84 H61 A2,2 0 0 1 59,82 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M71,72 A5,5 0 1 0 71,72.1 Z" />
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M71,72 A3,3 0 1 0 71,72.1 Z" />
+
+    <!-- Center Dice Diamond/Square (48,48 to 60,60) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M50,48 H58 A2,2 0 0 1 60,50 V58 A2,2 0 0 1 58,60 H50 A2,2 0 0 1 48,58 V50 A2,2 0 0 1 50,48 Z" />
+    
+    <!-- Dice Dots (showing a 6 or star) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M52,51 A1.2,1.2 0 1 0 52,51.1 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M52,54 A1.2,1.2 0 1 0 52,54.1 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M52,57 A1.2,1.2 0 1 0 52,57.1 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M56,51 A1.2,1.2 0 1 0 56,51.1 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M56,54 A1.2,1.2 0 1 0 56,54.1 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M56,57 A1.2,1.2 0 1 0 56,57.1 Z" />
+
+</vector>
